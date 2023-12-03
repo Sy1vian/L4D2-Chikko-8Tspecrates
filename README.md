@@ -28,5 +28,5 @@ cl_interp 1
 
 ## README
 ```text
-懂不懂含金量呀
+NONE
 ```
