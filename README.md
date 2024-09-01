@@ -12,16 +12,17 @@
 
 ---
 
-## Usage
-> 8 tick 旁观优化插件
-8亿鼠标的梦想  -8tick
-Hunt:showdonw  -8tick
-COD            -20tick
-L4D2旁观就需要30tick??
-优化为8tick，理论旁观人数增加2倍  =   原人数资源消耗
-优化了平滑插值，网络差旁观觉得卡请增加lerp
+### 作用:优化旁观者Tickrate
+(旁观者Tickrate优化插件)
+* **8亿鼠标的梦想-8tick
+* **Hunt:showdonw-8tick
+* **COD-20tick
+* **L4D2旁观默认需要30tick十分浪费资源
+* **本插件优化旁观者Tickrate为了8Tick，理论旁观人数增加2倍后  =   原人数资源消耗
+* **优化了平滑插值与延迟补偿算法8Tick完全充裕流程，
+* **部分网络质量很差的旁观觉得卡请增加lerp即可
 
-```控制台输入
+```需要增加lerp控制台输入
 cl_interp_ratio -1
 cl_interp 1
 ```
