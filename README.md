@@ -18,11 +18,12 @@
 * Hunt:showdonw-8tick
 * COD-20tick
 * L4D2旁观默认需要30tick十分浪费资源
-* 本插件优化旁观者Tickrate为了8Tick，理论旁观人数增加2倍后  =   原人数资源消耗
-* 且在这个基础上增加了平滑插值与延迟补偿算法,实战ZONEMOD里8Tick观战完全充裕流畅，
+* 本插件优化旁观者Tickrate为了8Tick，且在这个基础上增加了平滑插值与延迟补偿算法,实战ZONEMOD里8Tick观战完全充裕流畅
+* 效果:理论旁观人数增加2倍后=原人数资源消耗
 * 部分网络质量很差的旁观觉得卡请增加lerp即可
 
-```需要增加lerp控制台输入
+##需要增加lerp控制台输入
+```
 cl_interp_ratio -1
 cl_interp 1
 ```
